@@ -9,16 +9,16 @@ interface Option {
 
 const options: Option[] = [
   {
-    value: 'zhejiang',
-    label: 'Zhejiang',
+    value: '华东',
+    label: '华东',
     children: [
       {
-        value: 'hangzhou',
-        label: 'Hangzhou',
+        value: '华东一区销售部',
+        label: '华东一区销售部',
         children: [
           {
-            value: 'xihu',
-            label: 'West Lake',
+            value: '上海',
+            label: '上海',
           },
         ],
       },
